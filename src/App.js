@@ -26,7 +26,7 @@ function App() {
     }
 
     const applyChange = () => {
-        return cityData ? ( ((cityData.cod!=404) && (cityData.main.temp>16)) ? 'app warm': 'app'): 'app';
+        return cityData ? ( ((cityData.cod!=404) && (cityData.main.temp>16)) ? 'app-warm': 'app'): 'app';
     }
 
   return (

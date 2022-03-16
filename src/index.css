@@ -12,12 +12,12 @@ body {
   background-image: url('./assests/cold-bg.jpg');
   background-size: cover;
   background-position: bottom;
-  transition: 0.4 ease;
+  transition: 0.4s ease;
 }
 
 .app-warm {
   background-image: url('./assests/warm-bg.jpg');
-  transition: 0.4 ease;
+  transition: 0.4s ease;
 }
 
 main {

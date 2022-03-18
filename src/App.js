@@ -1,10 +1,8 @@
-import TempDetails from './component/tempDetails'
-import React from 'react';
+import TempDetails from "./component/tempDetails";
+import React from "react";
 
 function App() {
-  return (
-    <TempDetails></TempDetails>
-  );
+  return <TempDetails></TempDetails>;
 }
 
 export default App;
